@@ -4,7 +4,7 @@ const Booksec = () => (
   <>
     <div className="books-container d-flex">
       <h2>Book List</h2>
-      <button type="button">Remove</button>
+      <button type="button">REMOVE</button>
     </div>
     <input type="text" name="addBooks" placeholder="Enter Book Title" />
     <button type="button">Add Book</button>

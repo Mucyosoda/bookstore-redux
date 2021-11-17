@@ -1,9 +1,5 @@
-import React from 'react';
-
-const CategoriesPage = () => (
-  <>
-    <p className="text">Under Construction</p>
-  </>
-);
+function CategoriesPage() {
+  return <h2>Under Construction</h2>;
+}
 
 export default CategoriesPage;
