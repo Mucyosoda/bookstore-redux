@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Booksec from '../Redux/books/books';
-import Categoriessec from '../Redux/categories/categories';
+import CategoriesPage from '../Redux/categories/categories';
 import Nav from './NavBar';
 
 const App = () => (
@@ -12,7 +12,7 @@ const App = () => (
         <Booksec />
       </Route>
       <Route exact path="/categories">
-        <Categoriessec />
+        <CategoriesPage />
       </Route>
     </Switch>
   </>

@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Categoriessec = () => (
+const CategoriesPage = () => (
   <>
-    <p className="text">Still Under Construction</p>
+    <p className="text">Under Construction</p>
   </>
 );
 
-export default Categoriessec;
+export default CategoriesPage;
