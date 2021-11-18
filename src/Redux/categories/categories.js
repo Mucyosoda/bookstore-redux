@@ -1,5 +1,9 @@
-function CategoriesPage() {
-  return <h2>Under Construction</h2>;
-}
+import React from 'react';
 
-export default CategoriesPage;
+const Categoriessec = () => (
+  <>
+    <p className="text">Under Construction</p>
+  </>
+);
+
+export default Categoriessec;

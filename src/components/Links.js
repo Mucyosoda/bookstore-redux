@@ -1,20 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Nav = () => (
+const LinkPage = () => (
   <>
     <nav className="navigation-bar d-flex">
-      <h1>Bookstore</h1>
+      <h1>React/Redux Bookstore</h1>
       <ul className="d-flex">
         <li>
-          <Link to="/" exact> BOOKS </Link>
+          <Link to="/" exact> Books </Link>
         </li>
         <li>
-          <Link to="/categories"> CATEGORIES </Link>
+          <Link to="/categories"> Categories </Link>
         </li>
       </ul>
     </nav>
   </>
 );
 
-export default Nav;
+export default LinkPage;
