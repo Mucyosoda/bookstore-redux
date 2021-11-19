@@ -125,7 +125,6 @@ body {
   color: rgba(54, 118, 155, 0.671);
   background: #fff;
   font-size: 1rem;
-  height: rem;
 }
 
 .removebtn:hover {
@@ -171,7 +170,6 @@ body {
   margin-left: 4rem;
   margin-bottom: 2rem;
 }
-
 
 .breakk {
   padding: 21px;
