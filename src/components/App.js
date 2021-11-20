@@ -1,20 +1,22 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
-import Booksec from '../Redux/books/books';
-import CategoriesPage from '../Redux/categories/categories';
-import Nav from './NavBar';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Booksec from './Homepage';
+import Categoriessec from '../Redux/categories/categories';
+import LinkPage from './Links';
 
 const App = () => (
   <>
-    <Nav />
-    <Switch>
-      <Route exact path="/">
-        <Booksec />
-      </Route>
-      <Route exact path="/categories">
-        <CategoriesPage />
-      </Route>
-    </Switch>
+    <Router>
+      <LinkPage />
+      <Switch>
+        <Route exact path="/">
+          <Booksec />
+        </Route>
+        <Route exact path="/categories">
+          <Categoriessec />
+        </Route>
+      </Switch>
+    </Router>
   </>
 );
 
