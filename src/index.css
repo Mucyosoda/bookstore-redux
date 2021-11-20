@@ -34,7 +34,7 @@ body {
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
-  color: rgba(6, 86, 233, 0.658);
+  color: #0290ff;
   padding-top: 1rem;
   padding-left: 2rem;
 }
@@ -68,7 +68,7 @@ body {
   padding-right: 4rem;
   padding-bottom: 8rem;
   background-color: #fff;
-  width: 50rem;
+  width: 52rem;
   margin-left: 4rem;
 }
 
@@ -98,7 +98,7 @@ body {
   letter-spacing: 0.5px;
   margin-top: 1rem;
   border-radius: 0.5rem;
-  background: rgba(54, 118, 155, 0.671);
+  background: #0290ff;
   color: wheat;
   border: none;
 }
@@ -116,20 +116,20 @@ body {
 }
 
 .lower-remove {
-  color: rgba(54, 118, 155, 0.671);
+  color: #0290ff;
   display: flex;
 }
 
 .removebtn {
   border: none;
-  color: rgba(54, 118, 155, 0.671);
+  color: #0290ff;
   background: #fff;
   font-size: 1rem;
 }
 
 .removebtn:hover {
   color: #fff;
-  background-color: rgba(54, 118, 155, 0.671);
+  background-color: #0290ff;
 }
 
 .firstpart {
@@ -157,7 +157,7 @@ body {
 }
 
 .myname {
-  color: rgba(54, 118, 155, 0.671);
+  color: #0290ff;
 }
 
 .display-container {
@@ -180,7 +180,7 @@ body {
 }
 
 .loadspin {
-  color: rgba(54, 118, 155, 0.671);
+  color: #0290ff;
   font-size: 4.5rem;
   padding: 2rem;
 }
@@ -222,7 +222,7 @@ body {
   font-weight: bold;
   letter-spacing: 0.5px;
   margin-top: 1rem;
-  background: rgba(54, 118, 155, 0.671);
+  background: #0290ff;
   color: #fff;
   padding: 10px;
   border: none;
